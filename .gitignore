@@ -1,0 +1,12 @@
+build/
+cmake-build-*/
+.vscode/
+.idea/
+*.o
+*.exe
+*.out
+*.log
+.DS_Store
+Thumbs.db
+data/simulation_results/*.csv
+!data/simulation_results/.gitkeep

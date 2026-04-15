@@ -1,0 +1,23 @@
+{
+  "network": {
+    "num_meters": 20,
+    "committee_size": 10,
+    "threshold": 6,
+    "round_interval_seconds": 300
+  },
+  "crypto": {
+    "prime_bits": 512,
+    "hash_function": "SHA-256"
+  },
+  "billing": {
+    "tou_rates": {
+      "off_peak": 0.098,
+      "mid_peak": 0.157,
+      "on_peak": 0.203
+    }
+  },
+  "simulation": {
+    "rounds": 144,
+    "output_dir": "data/simulation_results"
+  }
+}
